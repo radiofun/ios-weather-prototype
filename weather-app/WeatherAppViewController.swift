@@ -97,7 +97,7 @@ class WeatherAppViewController: UIViewController, UIScrollViewDelegate {
                 self.chromeView.frame.origin.y -= (scrollView.contentOffset.y - self.previousScrollPosition)
                 self.chromeView.alpha = self.mapRange(self.chromeView.frame.origin.y, r1: 300.0, r2: 100.0, t1: 1.0, t2: 0.0)
                 
-                self.amsterdamView.frame.origin.y = self.mapRange(self.todayScroll.frame.origin.y, r1: 325.0, r2: 115.0, t1: 80.0, t2: 34.0)
+                self.amsterdamView.frame.origin.y = self.mapRange(self.todayScroll.frame.origin.y, r1: 325.0, r2: 115.0, t1: 80.0, t2: 35.0)
                 
                 self.temperatureView.frame.origin.y = self.mapRange(self.todayScroll.frame.origin.y, r1: 325.0, r2: 115.0, t1: 150.0, t2: 50.0)
                 self.temperatureView.alpha = self.mapRange(self.todayScroll.frame.origin.y, r1: 325.0, r2: 200.0, t1: 1.0, t2: 0.0)
