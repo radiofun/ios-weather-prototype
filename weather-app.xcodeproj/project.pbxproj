@@ -153,6 +153,7 @@
 		44277AC21B8DEEDD008A5EF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jonathon Toon";
 				TargetAttributes = {
@@ -397,6 +398,7 @@
 				44277AEB1B8DEEDD008A5EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44277AEC1B8DEEDD008A5EF6 /* Build configuration list for PBXNativeTarget "weather-appTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +407,7 @@
 				44277AEE1B8DEEDD008A5EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
